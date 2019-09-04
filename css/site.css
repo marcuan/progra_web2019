@@ -1,3 +1,6 @@
+#main_nav {
+    box-shadow: 0px 0px 5px #999;
+}
 
 #main_nav ul {
     display: flex;
@@ -14,4 +17,27 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #110260;
+}
+
+.no-margin,
+section p:last-child {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#description {
+    padding: 30px 0;
+}
+
+#cat .columns:first-child {
+    text-align: center;
+}
+
+#cat img {
+    border-radius: 25px;
+    max-width: 100%;
+    max-height: 150px;
 }
