@@ -1,0 +1,17 @@
+
+#main_nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#main_nav ul li {
+    list-style: none;
+}
+
+#main_nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #110260;
+}
