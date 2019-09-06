@@ -41,3 +41,50 @@ section {
     max-width: 100%;
     max-height: 150px;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.student-card {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px #AAAAAA;
+}
+
+.student-card img {
+    width: 130px;
+    height: 130px;
+}
+
+.student-card.circled img{
+    border-radius: 50%;
+}
+
+.student-card.squared .card-image {
+    height: 250px;
+    background-position: center -45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 550px)
+{
+    .student-card.squared .card-image {
+        height: 170px;
+        background-position: center -25px;
+    }
+}
+
+.student-card.squared {
+    padding: 0;
+}
+
+.student-card.squared .card-body {
+    padding: 20px;
+}
+
+.student-card p {
+    text-align: left;
+}
