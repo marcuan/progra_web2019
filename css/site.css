@@ -31,7 +31,14 @@ section {
 #description {
     padding: 30px 0;
 }
-
+#personalizacionCarlos .columns:first-child{
+    text-align: center
+}
+#personalizacionCarlos img{
+    border-radius: 20px 0px 20px 0px;
+    max-width: 100%;
+    max-height: 150px;
+}
 #cat .columns:first-child {
     text-align: center;
 }
@@ -45,7 +52,16 @@ section {
 .text-center {
     text-align: center;
 }
-
+.Carta-perfil-Carlos{
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(2, 20, 124); 
+}
+.Carta-perfil-Carlos img {
+    width: 130px;
+    height: 130px;
+}
 .student-card {
     margin: 20px 0;
     padding: 20px;
@@ -87,4 +103,12 @@ section {
 
 .student-card p {
     text-align: left;
+}
+#footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:rgb(243, 229, 229);
 }
