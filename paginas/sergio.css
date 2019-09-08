@@ -1,0 +1,66 @@
+#perfil {
+  max-width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.card-est {
+  box-shadow: 0px 0px 5px #1a237e;
+  /*padding: 0px 25px 0px 25px;*/
+  margin-top: 15px;
+}
+
+.info {
+  margin: 10px 0px 10px 20px;
+}
+
+.posts {
+  margin-top: 10px;
+}
+
+.post {
+  border-color: #1a237e;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 25px;
+}
+
+.post-head {
+  background: #0d47a1;
+  border-bottom-color: #82b1ff;
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+
+.post-body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.post-text {
+  margin: 10px 20px;
+  text-align: justify;
+}
+
+.post-title {
+  color: aliceblue;
+  margin: 0px 20px;
+  font-size: 25px;
+}
+
+.post-footer {
+  margin: 0px;
+  background: #1565c0;
+}
+
+.post-footer ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.post-footer ul li {
+  list-style: none;
+  padding: 0px 15px;
+  margin: 5px 0px;
+}
