@@ -88,3 +88,14 @@ section {
 .student-card p {
     text-align: left;
 }
+
+#mr-card {
+    box-shadow: 0 0 8px orange;
+    border-radius: 10px;
+}
+
+#mr-card img {
+    border-radius: 10px;
+    width: 175px;
+    height: 165px;
+}
