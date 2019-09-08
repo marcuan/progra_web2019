@@ -1,0 +1,21 @@
+#title{
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+#title img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#main_nav ul li a{
+    color: white;
+}
+
+body {
+    background-image: url('../images/fondo-hugo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
