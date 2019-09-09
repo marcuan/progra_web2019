@@ -36,6 +36,11 @@ section {
     text-align: center;
 }
 
+#hugolucas a{
+    color: black; 
+    text-decoration: none;
+}
+
 #cat img {
     border-radius: 25px;
     max-width: 100%;
