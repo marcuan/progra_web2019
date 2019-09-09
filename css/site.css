@@ -88,3 +88,24 @@ section {
 .student-card p {
     text-align: left;
 }
+/* Wilson Xicara's styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.student-sheet {
+    margin: 5px 0;
+    padding: 20px;
+    box-shadow: 0 0 15px #6473AB;
+}
+.student-sheet img {
+    width: 100%;
+    height: 100%;
+}
+.student-sheet.ellipsed img {
+    border-radius: 25%;
+}
+.no-padding-bottom * {
+    padding-bottom: 0;
+}
+#header-section, #footer-section {
+    background: #6473AB;
+    padding: 20px 0;
+}
