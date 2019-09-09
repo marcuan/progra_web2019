@@ -29,6 +29,19 @@
   max-height: 175px;
 }
 
+.image {
+  max-width: 100%;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.rectangle {
+  max-width: 100%;
+  height: 90.43px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
 footer {
   background: #ff9100;
   padding: 20px 0;
