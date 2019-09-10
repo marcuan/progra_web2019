@@ -24,8 +24,9 @@ section p:last-child {
     margin: 0;
 }
 
-section {
-    margin-bottom: 30px;
+.second-section section{
+    box-shadow: 0 0 5px black;
+    margin-bottom: 20px; 
 }
 
 #description {
