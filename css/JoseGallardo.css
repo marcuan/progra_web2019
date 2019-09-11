@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    width: 99%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 0px;
+    box-sizing: border-box; }
+
+
+
+.student-card {
+    margin: 100px 0px 200px -150px;
+    padding: 0px;
+    text-align: center;
+    box-shadow: none;
+    
+}
+
+.student-card img {
+    
+    width: 150px;
+    height: 150px;
+}
+
+.student-card.circled img{
+    border-radius: 50%;
+}
+
+#about-me {
+    background-image: url("../images/fondoJGallardo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+#about-me h3{
+    margin-top: 100px; 
+}
+
+#info {
+    margin-left: 150px;
+    /*margin-right: 100px;*/
+}
+
+#Games {
+    margin-left: 750px;
+}
