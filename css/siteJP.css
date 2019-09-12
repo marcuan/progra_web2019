@@ -1,0 +1,82 @@
+#navN
+{
+    box-shadow: 0px 0px 5px #009930;
+    background: #ffaf00
+}
+#navN ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#navN ul li {
+    list-style: upper-roman;
+}
+
+#navN ul li a{
+    text-transform: none;
+    text-decoration: blue;
+    color: black;
+}
+
+.text-center {
+    text-align: center;
+}
+section div h3
+{
+    text-align: inherit;
+    text-decoration: none;
+    text-shadow: #009930;
+}
+
+#Informacion{
+    margin: 10px 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px #AAAAAA;
+    width: 1150px;
+    height: 400px;
+}
+#Informacion h6{
+    text-align:justify;
+    box-shadow: 0 0 5px #AAAAAA
+}
+
+#Informacion h6 p{
+    margin: 12px;
+    
+}
+
+#Perro{
+    border-radius: 25px;
+    max-width: 100%;
+    max-height: 150px;
+    display: block;
+    margin: 40px 100px;
+    box-shadow: 0 0 5px #AAAAAA;
+}
+
+#Citas {
+    background: #0664b1;   
+    margin: 10px 10px;
+    width: 1200px;
+    height: 750px;
+    box-shadow: 0 0 20px rgb(11, 2, 58);
+}
+#Citas h3{
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+#Citas blockquote{
+    text-align: center;
+    justify-content: center;
+    display: block; 
+}
+#Citas i{
+    text-align: end;
+    justify-content: center;
+    display: block; 
+    box-shadow: 0 5px 0 rgb(9, 94, 1);
+}
