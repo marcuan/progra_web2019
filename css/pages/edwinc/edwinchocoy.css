@@ -1,0 +1,72 @@
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+}
+
+#main_nav {
+    background: #293F56;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+#main_nav h3 {
+    color: #ffffff;
+}
+
+.sidebar.circled ul li a {
+    text-transform: capitalize;
+    font-weight: 500;
+    text-decoration: none;
+    color: #414A50;
+}
+
+.sidebar.circled h5 {
+    text-decoration: none;
+    color: #000000;
+}
+
+.sidebar.circled ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.sidebar.circled img {
+    border-radius: 10%;
+}
+
+.sidebar {
+    margin: 30px;
+    padding: 0px;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 180px;
+    height: 180px;
+}
+
+#aboutme {
+    padding-top: 30px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+ul li {
+    list-style: none;
+    text-align: left;
+    font-weight: 600;
+}
+
+#info h3 {
+    color: #577AB2;
+}
+
+p {
+    padding: 0 20px;
+    margin-bottom: 0%;
+}
