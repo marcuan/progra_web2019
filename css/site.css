@@ -25,6 +25,11 @@ section p:last-child {
     margin: 0;
 }
 
+.second-section section{
+    box-shadow: 0 0 5px black;
+    margin-bottom: 20px; 
+}
+
 section {
     margin-bottom: 5px;
 }
