@@ -62,6 +62,31 @@ section {
     border-radius: 50%;
 }
 
+.student-card.circled.jrmr{
+    padding: 10px;
+    box-shadow: 0px 0px 2px #4478C1;
+    border-radius: 2% 2%;
+}
+.student-card.circled.jrmr p{
+    text-align: center;
+}
+.student-card.circled.jrmr:hover{
+    box-shadow: 0px 0px 2px #FF0000;
+}
+.student-card.circled.jrmr img:hover{
+    -webkit-filter: blur(2px);
+}
+.student-card.circled.jrmr button{
+    background: #4478C1;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.student-card.circled.jrmr button:hover{
+    background: #FF0000; 
+    color: #ffffff;
+}
+
 .student-card.squared .card-image {
     height: 250px;
     background-position: center -45px;
@@ -87,4 +112,25 @@ section {
 
 .student-card p {
     text-align: left;
+}
+/* Wilson Xicara's styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.student-sheet {
+    margin: 5px 0;
+    padding: 20px;
+    box-shadow: 0 0 15px #6473AB;
+}
+.student-sheet img {
+    width: 100%;
+    height: 100%;
+}
+.student-sheet.ellipsed img {
+    border-radius: 25%;
+}
+.no-padding-bottom * {
+    padding-bottom: 0;
+}
+#header-section, #footer-section {
+    background: #6473AB;
+    padding: 20px 0;
 }
