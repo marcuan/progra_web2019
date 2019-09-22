@@ -1,5 +1,5 @@
 #main_nav {
-    box-shadow: 0px 0px 5px #999;
+    box-shadow: 0px 0px 5px rgb(3, 35, 43);
 }
 
 #main_nav ul {
@@ -19,6 +19,7 @@
     color: #110260;
 }
 
+
 .no-margin,
 section p:last-child {
     margin: 0;
@@ -29,7 +30,15 @@ section p:last-child {
     margin-bottom: 20px; 
 }
 
+section {
+    margin-bottom: 5px;
+}
+
 #description {
+    padding: 5px 0;
+}
+
+#cat {
     padding: 30px 0;
 }
 
@@ -53,7 +62,12 @@ section p:last-child {
     text-align: center;
     box-shadow: 0 0 5px #AAAAAA;
 }
-
+.photo-card {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px #AAAAAA;
+}
 .student-card img {
     width: 130px;
     height: 130px;
@@ -61,6 +75,31 @@ section p:last-child {
 
 .student-card.circled img{
     border-radius: 50%;
+}
+
+.student-card.circled.jrmr{
+    padding: 10px;
+    box-shadow: 0px 0px 2px #4478C1;
+    border-radius: 2% 2%;
+}
+.student-card.circled.jrmr p{
+    text-align: center;
+}
+.student-card.circled.jrmr:hover{
+    box-shadow: 0px 0px 2px #FF0000;
+}
+.student-card.circled.jrmr img:hover{
+    -webkit-filter: blur(2px);
+}
+.student-card.circled.jrmr button{
+    background: #4478C1;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.student-card.circled.jrmr button:hover{
+    background: #FF0000; 
+    color: #ffffff;
 }
 
 .student-card.squared .card-image {
@@ -89,3 +128,122 @@ section p:last-child {
 .student-card p {
     text-align: left;
 }
+/* Juanmi
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.triangle {
+    width: 0;
+    height: 0;
+    border-right: 66px solid #ED5DCB;
+    opacity: 0.52;
+    border-top: 41px solid transparent;
+    border-bottom: 41px solid transparent;
+    position: absolute;
+    top: 128px;
+    right: 47px;
+    transform: rotate(0deg);
+  }
+  .diamond {
+    width: 71px;
+    height: 77px;
+    background: #4DE1DF;
+    opacity: 0.50;
+    transform: rotate(137deg);
+    position: absolute;
+    top: 125px;
+    left: 47px;
+  }
+  .rectangle {
+    width: 47px;
+    height: 79px;
+    background: #8147FF;
+    opacity: 0.56;
+    transform: rotate(316deg);
+    position: absolute;
+    bottom: -200px;
+    left: 42px;
+  }
+  .circle {
+    width: 74px;
+    height: 73px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #FFE549;
+    opacity: 0.61;
+    position: absolute;
+    bottom: -350px;
+    left: 650px;
+  }
+  .rectangle-1 {
+    width: 41px;
+    height: 64px;
+    background: #8E8D92;
+    opacity: 0.53;
+    transform: rotate(50deg);
+    position: absolute;
+    bottom: 255.95px;
+    right: 212px;
+  }
+  .rectangle-2 {
+    width: 41px;
+    height: 64px;
+    background: #FFE549;
+    opacity: 0.7;
+    transform: rotate(50deg);
+    position: absolute;
+    bottom: 100px;
+    right:300px;
+  }
+  .rectangle-3 {
+    width: 41px;
+    height: 64px;
+    background: #D434AF;
+    opacity: 0.53;
+    transform: rotate(50deg);
+    position: absolute;
+    bottom: -200px;
+    right: 65px;
+  }
+  .rectangle-2-inv {
+    width: 41px;
+    height: 64px;
+    background: #FFE549;
+    opacity: 0.7;
+    transform: rotate(50deg);
+    position: absolute;
+    bottom: 255.95px;
+    left: 212px;
+  }
+  .rectangle-1-inv{
+    width: 41px;
+    height: 64px;
+    background: #8E8D92;
+    opacity: 0.53;
+    transform: rotate(50deg);
+    position: absolute;
+    bottom: 100px;
+    left:212px;
+  }
+
+/* Wilson Xicara's styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.student-sheet {
+    margin: 5px 0;
+    padding: 20px;
+    box-shadow: 0 0 15px #6473AB;
+}
+.student-sheet img {
+    width: 100%;
+    height: 100%;
+}
+.student-sheet.ellipsed img {
+    border-radius: 25%;
+}
+.no-padding-bottom * {
+    padding-bottom: 0;
+}
+#header-section, #footer-section {
+    background: #6473AB;
+    padding: 20px 0;
+}
+
